@@ -1,0 +1,47 @@
+/*html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+*/
+.page-container {
+  display: flex;
+  height: 100vh;
+}
+
+.home-page-alignment {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-text {
+  width: 70vw;
+  color: hsl(205, 5%, 46%);
+  font-size: 24px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.home-title {
+  width: 80vw;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  color: hsl(205, 75%, 12%);
+}
+
+p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+}
+
+main-color {
+  color: hsl(205, 75%, 24%);
+}
